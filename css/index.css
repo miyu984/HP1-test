@@ -1,0 +1,389 @@
+@charset "UTF-8";
+
+header {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left img {
+  width: 100px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  padding-left: 15px;
+}
+
+.header-right a:hover {
+  opacity: 0.7;
+}
+
+.header-right a img {
+  height: 30px;
+}
+
+.top {
+  margin: 10px 0 50px;
+  width: 100%;
+  display: flex;
+}
+
+.top nav {
+  width: 20%;
+  margin-top: 150px;
+}
+
+.top nav li {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.top nav li a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top nav li a:hover {
+  color: #000;
+  text-shadow: #e5e5e5 2px 2px 2px;
+}
+
+.top-img {
+  width: 80%;
+  position: relative;
+}
+
+.top-img img {
+  max-height: 800px;
+  width: 100%;
+}
+
+.top-img .txt {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.top-img .txt h2 {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 10px;
+}
+
+.top-img .txt h1 {
+  color: white;
+  font-size: 120px;
+  letter-spacing: 10px;
+  margin-top: -50px;
+}
+
+.section {
+  margin: 250px 0;
+  position: relative;
+}
+
+.news .section-inner {
+  display: flex;
+}
+
+.section .section-inner {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.section-ttl {
+  font-size: 36px;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 100px;
+  letter-spacing: 5px;
+}
+
+.section .section-ttl small {
+  font-size: 13px;
+  position: absolute;
+  top: 50px;
+  letter-spacing: 2px;
+}
+
+.news .section-ttl {
+  width: 200px;
+}
+
+.news-list {
+  padding-top: 10px;
+  padding-left: 8%;
+  position: relative;
+  width: 100%;
+}
+
+.news-list li {
+  font-size: 14px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+}
+
+.news-list::after {
+  content: "";
+  position: absolute;
+  border-left: solid #868686 1px;
+  top: 5px;
+  height: 180px;
+}
+
+.btn a {
+  padding: 10px 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: white;
+  border: #e5e5e5 solid 1px;
+  box-shadow: 2px 2px #868686;
+}
+
+.btn a:hover {
+  background-color: black;
+  color: white;
+  box-shadow: none;
+}
+
+.news .section-inner .btn a {
+  position: absolute;
+  top: 150px;
+  right: 0%;
+}
+
+.pickup .section-ttl {
+  background-color: white;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  padding: 0 15px;
+  transform: translate(-50%);
+}
+
+.pickup .section-inner {
+  text-align: center;
+}
+
+.pickup .section-inner small {
+  left: 50%;
+  transform: translate(-50%);
+  width: fit-content;
+}
+
+.pickup .section-inner .pickup-all {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid #868686;
+  padding: 180px 100px 30px 100px;
+}
+
+.pickup-item,
+.pickup-item-reverse {
+  display: flex;
+  margin-bottom: 400px;
+  position: relative;
+}
+
+.pickup-item img {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 350px;
+  height: 230px;
+  z-index: 1;
+}
+
+.pickup-item-reverse img {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 350px;
+  height: 230px;
+  z-index: 1;
+}
+
+.pickup-item .txt-box-bg {
+  position: absolute;
+  z-index: 0;
+  background-color: #e5e5e5;
+  width: 450px;
+  height: 320px;
+  right: 0;
+}
+
+.pickup-item-reverse .txt-box-bg {
+  position: absolute;
+  z-index: 0;
+  background-color: #e5e5e5;
+  width: 450px;
+  height: 320px;
+  left: 0;
+}
+
+.pickup-item .txt-box-bg .txt-box {
+  z-index: 2;
+  width: 300px;
+  height: 320px;
+  margin: 30px 30px auto auto;
+}
+
+.pickup-item-reverse .txt-box-bg .txt-box {
+  z-index: 2;
+  width: 300px;
+  height: 320px;
+  margin: 30px auto auto 30px;
+}
+
+.pickup-item .txt-box-bg .txt-box h4,
+.pickup-item-reverse .txt-box-bg .txt-box h4 {
+  font-size: 18px;
+}
+
+.pickup-item .txt-box-bg .txt-box p,
+.pickup-item-reverse .txt-box-bg .txt-box p {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.pickup .section-inner .btn {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.service-all {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service-all .service-item {
+  width: 50%;
+  padding: 0px;
+  margin: 0;
+  position: relative;
+}
+
+.service-all .service-item a {
+  display: block;
+  height: max-content;
+}
+
+.service-all .service-item a:hover {
+  opacity: 0.6;
+}
+
+.service-all .service-item img {
+  width: 100%;
+  display: block;
+}
+
+.service-all .service-item .txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.service-all .service-item p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+.service-all .service-item small {
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  letter-spacing: 1px;
+  width: fit-content;
+}
+
+.service .section-inner .btn {
+  display: block;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.recruit .section-inner .recruit-main {
+  display: flex;
+  position: relative;
+}
+
+.section .section-inner .recruit-main img {
+  width: 550px;
+  z-index: 1;
+}
+
+.section .section-inner .recruit-main .recruit-txt-bg {
+  position: absolute;
+  z-index: 0;
+  background-color: #e5e5e5;
+  height: 430px;
+  width: 775px;
+  right: 0;
+  top: 60px;
+}
+
+.recruit-main .section-ttl {
+  margin-bottom: 20px;
+}
+
+.recruit-main .section-ttl small {
+  position: unset;
+  padding-left: 10px;
+}
+
+.section .section-inner .recruit-main .recruit-txt-bg .recruit-txt {
+  width: 320px;
+  position: absolute;
+  right: 60px;
+  top: 50px;
+}
+
+.recruit-main .recruit-txt-bg .recruit-txt h4 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+  color: #000;
+}
+
+.recruit-main .recruit-txt-bg .recruit-txt p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.recruit .section-inner .btn {
+  position: absolute;
+  bottom: -135px;
+  left: 30%;
+  transform: translate(-50%);
+}
+
+.service .section-inner .btn a,
+.recruit .section-inner .btn a {
+  letter-spacing: 3px;
+}

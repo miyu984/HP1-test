@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+.company {
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.company-list {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.company-list li {
+  position: flex;
+  width: 100%;
+  margin: 0 auto 30px;
+}
+
+.company-list li span {
+  display: inline-block;
+  width: 15%;
+  margin-right: 3%;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  padding: 0 0 30px 20px;
+}
+
+.company-list li p {
+  display: inline-block;
+  width: 75%;
+  font-size: 14px;
+  border-bottom: 1px solid #868686;
+  padding: 0 0 30px 20px;
+}
+
+.contact {
+  margin-top: 50px;
+}

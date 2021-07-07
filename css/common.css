@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+body {
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+li {
+  list-style: none;
+}
+
+.contact .section-inner {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.contact {
+  padding-top: 150px;
+}
+
+.contact span {
+  width: 100%;
+}
+
+.contact span a {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 2px;
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.contact span a:hover {
+  background-color: white;
+  color: #000;
+  border: #000 2px solid;
+  height: 39px;
+}
+
+.contact h4 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+  color: #000;
+}
+
+.contact p {
+  font-size: 14px;
+}
+
+footer {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 70px 0;
+}
+
+footer .footer-inner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.footer-left img {
+  width: 100px;
+  padding-bottom: 50px;
+}
+
+.footer-left h4 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 16px;
+}
+
+.footer-right {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.footer-right ul {
+  padding-left: 150px;
+}
+
+.footer-right li a {
+  font-size: 14px;
+  line-height: 55px;
+  color: white;
+}
+
+.footer-right li a:hover {
+  border-bottom: white 1px solid;
+}
+
+.copyright-bg {
+  background-color: black;
+  width: 100%;
+}
+
+.copyright {
+  display: block;
+  width: fit-content;
+  color: rgb(224, 224, 224);
+  font-size: 12px;
+  margin: 0 5% 0 auto;
+  padding: 13px 0;
+}

@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+.service {
+  margin-top: 150px;
+}
+
+.service1 {
+  margin-bottom: 150px;
+}
+
+.service1 h4,
+.service2 h4 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.service1 p {
+  font-size: 18px;
+  line-height: 2.3;
+  font-weight: bold;
+}
+
+.service2-item {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.service2-item img {
+  background-color: black;
+  border-radius: 50%;
+  width: 100px;
+  height: 80px;
+  padding: 40px 30px;
+}
+
+.service2-item .txt {
+  margin-left: 10%;
+}
+
+.service2 h5 {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.service2 p {
+  font-size: 12px;
+  line-height: 2.3;
+}
+
+.list {
+  margin-bottom: 0;
+}
+
+.list .section-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list .service-item {
+  width: 50%;
+  padding: 0px;
+  margin: 0;
+  position: relative;
+}
+
+.list .service-item a {
+  display: block;
+  height: max-content;
+}
+
+.list .service-item a:hover {
+  opacity: 0.6;
+}
+
+.list .service-item img {
+  width: 100%;
+  display: block;
+}
+
+.list .service-item .txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.list .service-item p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+.list .service-item small {
+  font-size: 12px;
+  font-weight: normal;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  letter-spacing: 1px;
+  width: fit-content;
+}
+
+.contact {
+  padding-top: 200px;
+  margin-top: 0;
+}
